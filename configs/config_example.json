@@ -20,7 +20,7 @@
 
     "ejudge_url": "http://some_ejudge_url.com",
 
-    "default_main": 0
+    "default_main": 1
   },
 
   "secrets": {
