@@ -114,6 +114,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+# for django >= 3.3
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'
+
 TEMPLATE_DIRS = (os.path.join(BASE_DIR,  'templates'),)
 
 DATA_UPLOAD_MAX_NUMBER_FIELDS = 10000
